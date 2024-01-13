@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #CDFCF6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture {
+            max-width: 150px; /* Set a fixed width for the profile picture */
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .profile-details {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #666;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .degrees {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .degree-link {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .degrees img {
+            max-width: 50px; /* Set a fixed width for the degree images */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .reviews {
+            margin-top: 20px;
+        }
+
+        .review {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stars {
+            color: #ffcc00; /* Color for the stars (yellow) */
+        }
+
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #98A8F8;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doctor's Profile</h1>
+    </header>
+
+    <div class="container">
+        <img class="profile-picture" src="doctor.jpg" alt="Doctor's Picture">
+        <div class="profile-details">
+            <h2>Dr. John Doe</h2>
+            <h3>Specialization: Cardiologist</h3>
+            <div class="degrees">
+                <strong>Degrees:</strong>
+                <a class="degree-link" href="degree1-page.html" title="MD in Cardiology">
+                    <img src="degree1.jpg" alt="MD in Cardiology">
+                </a>
+                <a class="degree-link" href="degree2-page.html" title="Board Certified in Internal Medicine">
+                    <img src="degree2.jpg" alt="Board Certified in Internal Medicine">
+                </a>
+                <!-- Add more degree links as needed -->
+            </div>
+            <p>
+                <strong>Education:</strong> Medical School XYZ, Residency at ABC Hospital<br>
+                <strong>Experience:</strong> 10+ years<br>
+                <strong>Contact:</strong> johndoe@example.com<br>
+                <strong>Phone:</strong> (555) 123-4567<br>
+                <strong>Average Rating:</strong> 4.5 out of 5 stars (Placeholder)
+            </p>
+        </div>
+        
+        <div class="button-container">
+            <a href="#" class="button">Ask a Query</a>
+            <a href="#" class="button">Book an Appointment</a>
+        </div>
+
+        <div class="reviews">
+            <h3>Reviews and Ratings</h3>
+            <div class="review">
+                <p><strong>Rating:</strong> <span class="stars">★★★★★</span></p>
+                <p><strong>Review:</strong> Excellent doctor! Highly recommended.</p>
+                <p><strong>Name:</strong> John Smith</p>
+                <p><strong>Date and Time:</strong> January 12, 2024, 3:30 PM</p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review">
+                <p><strong>Rating:</strong> <span class="stars">★★★★☆</span></p>
+                <p><strong>Review:</strong> Knowledgeable and caring. I'm very satisfied with the treatment.</p>
+                <p><strong>Name:</strong> Jane Doe</p>
+                <p><strong>Date and Time:</strong> January 11, 2024, 10:15 AM</p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review">
+                <p><strong>Rating:</strong> <span class="stars">★★★☆☆</span></p>
+                <p><strong>Review:</strong> Decent service. Could be more punctual.</p>
+                <p><strong>Name:</strong> Michael Johnson</p>
+                <p><strong>Date and Time:</strong> January 10, 2024, 1:45 PM</p>
+            </div>
+
+            <!-- Add more reviews as needed -->
+        </div>
+    </div>
+</body>
+</html>
