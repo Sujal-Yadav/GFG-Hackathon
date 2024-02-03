@@ -10,7 +10,7 @@ app.post('/userSubmission', function(req, res) {
     console.log("hi there");
 })
 
-app.get('/', function(req, res) {
+app.get('/doctor', function(req, res) {
     res.render('doctor.hbs')
 })
 
